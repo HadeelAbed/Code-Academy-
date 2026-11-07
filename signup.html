@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Academy | Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Code Academy</h1>
+        <p>Create your account and start learning.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Join Code Academy</h2>
+
+        <p>
+            Fill in the form below to register
+            for our learning community.
+        </p>
+
+        <div class="form-container">
+
+            <form action="homepage.html" method="post">
+
+                <label for="username">Username or Email:</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your username or email"
+                    required>
+
+                <label for="password">Password:</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    required>
+
+                <label>Gender:</label>
+
+                <div class="radio-option">
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="Male"
+                        required>
+                    <label for="male">Male</label>
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="Female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="checkbox-option">
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        value="accepted"
+                        required>
+                    <label for="terms">
+                        I agree to the terms and conditions.
+                    </label>
+                </div>
+
+                <input type="submit" value="Create Account">
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact us: info@codeacademy.example | +970 599 000 000</p>
+
+        <p>
+            <a href="https://www.facebook.com/">Facebook</a> |
+            <a href="https://www.instagram.com/">Instagram</a> |
+            <a href="#">Privacy Policy</a>
+        </p>
+
+        <p>&copy; 2026 Code Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

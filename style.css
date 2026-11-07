@@ -1,0 +1,232 @@
+/* General page styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #334155;
+    background-color: #F8FAFC;
+}
+
+/* Header */
+
+header {
+    background-color: #172554;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 24px 15px;
+}
+
+header h1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #DBEAFE;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #1E3A8A;
+    text-align: center;
+    padding: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FBBF24;
+    text-decoration: underline;
+}
+
+/* Main content */
+
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+h2, h3 {
+    color: #1D4ED8;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #172554;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 12px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #FBBF24;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Homepage gallery */
+
+.gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+/* Courses table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #CBD5E1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #DBEAFE;
+    color: #172554;
+}
+
+/* Video */
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 560px;
+    max-width: 100%;
+    height: 315px;
+    border: 3px solid #DBEAFE;
+    border-radius: 8px;
+}
+
+/* Forms */
+
+.form-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    border-radius: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 6px;
+    color: #172554;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #94A3B8;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.form-container textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.radio-option, .checkbox-option {
+    margin-bottom: 15px;
+}
+
+button, input[type="submit"] {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #1E40AF;
+}
+
+/* Google Map */
+
+.map-container {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.map-container iframe {
+    width: 600px;
+    max-width: 100%;
+    height: 350px;
+    border: 3px solid #BFDBFE;
+    border-radius: 8px;
+}

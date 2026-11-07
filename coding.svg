@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+<rect width="440" height="300" rx="18" fill="#dbeafe"/>
+<circle cx="350" cy="65" r="32" fill="#fbbf24"/>
+<rect x="75" y="55" width="290" height="175" rx="12" fill="#172554"/>
+<rect x="88" y="68" width="264" height="148" rx="5" fill="#0f172a"/>
+<path d="M145 120l-24 18 24 18M295 120l24 18-24 18M245 108l-38 62" fill="none" stroke="#60a5fa" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="195" y="230" width="50" height="12" rx="4" fill="#64748b"/>
+<path d="M165 245h110l18 13H147z" fill="#334155"/>
+<text x="220" y="285" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#172554">LEARN TO CODE</text>
+</svg>
